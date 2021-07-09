@@ -11,7 +11,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="../public/style.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
-    <script src="/socket.io/socket.io.js"></script>
+    <!-- <script src="/socket.io/socket.io.js"></script> -->
+    <style>
+      #game-window {
+        border: 1px solid black;
+        background-color: gray;
+      }
+    </style>
   </head>
   <body>
     <header>
@@ -27,6 +33,7 @@
       >
       </canvas>
     </div>
+    <!-- <img src="../public/image/other-player.png"> -->
   </body>
   <script src="../public/game.mjs" type="module"></script>
 </html>
